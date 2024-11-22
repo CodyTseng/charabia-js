@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "benchmark": "bash build.sh && node bench.js"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
