@@ -1,10 +1,20 @@
 [package]
 name = "charabia-js"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "A WebAssembly binding for the charabia multilingual text tokenizer used by Meilisearch."
 repository = "https://github.com/codytseng/charabia-js"
 license = "MIT"
+keywords = [
+  "multilingual",
+  "tokenizer",
+  "tokenization",
+  "segment",
+  "segmentation",
+  "wasm",
+  "charabia",
+  "meilisearch",
+]
 
 [lib]
 crate-type = ["cdylib"]
