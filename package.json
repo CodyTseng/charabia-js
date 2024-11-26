@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "benchmark": "bash build.sh && node bench.js"
+    "benchmark": "bash build.sh && node bench.js",
+    "docs": "typedoc --out docs pkg/charabia_js.d.ts"
   },
-  "dependencies": {
-    "benchmark": "^2.1.4"
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "typedoc": "^0.26.11"
   }
 }

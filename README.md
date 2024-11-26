@@ -88,6 +88,8 @@ npm install charabia-js
 
 ## Usage
 
+API documentation can be found [here](https://codytseng.github.io/charabia-js/).
+
 ### Segmentation
 
 ```ts
